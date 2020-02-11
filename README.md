@@ -55,7 +55,7 @@ If `true` then GherkinParam will throw a exception `GherkinParam` at runtime whe
 ```yaml
 modules:
     enabled:
-        - Codeception\Extension\GherkinParam
+        - Codeception\Extension\GherkinParam:
           onErrorThrowException: true
 ```
 
@@ -68,7 +68,7 @@ If `true` then GherkinParam will set to `null` parameters for which a replacemen
 ```yaml
 modules:
     enabled:
-        - Codeception\Extension\GherkinParam
+        - Codeception\Extension\GherkinParam:
           onErrorNullable: true
 ```
 
